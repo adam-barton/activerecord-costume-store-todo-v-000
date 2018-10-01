@@ -9,5 +9,6 @@ class CreateCostumeStore < ActiveRecord::Migration[5.1]
       t.boolean :open?
       t.datetime :opening
       t.datetime :closing
+    end
   end
 end
